@@ -6,7 +6,7 @@
 }
 
 .post-comments {
-    
+    margin: 10px 0;
 }
 
 .post-comment {
@@ -44,4 +44,9 @@
     background-color: #27ae60;
     color: #eee;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.post-comments-form-button:hover {
+    background-color: #000000;
 }
